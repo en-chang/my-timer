@@ -3,7 +3,7 @@ import './Button.css';
 
 class Button extends React.Component {
   clicked() {
-    alert('Hi Button!');
+    console.log("Hi Button!");
   }
   render() {
     return (
