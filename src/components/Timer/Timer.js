@@ -5,7 +5,7 @@ import './Timer.css';
 class Timer extends React.Component {
   render() {
     return (
-      <Countdown date={Date.now() + 5000}>
+      <Countdown className='timer' date={Date.now() + 5000}>
         {/* Sound on completion */}
       </Countdown>
     );
