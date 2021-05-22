@@ -6,8 +6,8 @@ class Navbar extends React.Component {
     return (
       <ul>
         <li><a className="active" href="#home">Home</a></li>
-        <li className="right"><a className="active" href="#signup">Sign up</a></li>
-        <li className="right"><a className="active" href="#login">Log in</a></li>
+        {/* <li className="right"><a className="active" href="#signup">Sign up</a></li>
+        <li className="right"><a className="active" href="#login">Log in</a></li> */}
       </ul>
     );
   }
