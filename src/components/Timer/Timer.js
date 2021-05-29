@@ -24,9 +24,9 @@ class Timer extends React.Component {
   render() {
     return (
       <div>
-        <Countdown className='timer' date={Date.now() + 5000} onComplete={this.completed}></Countdown>
+        <Countdown className='timer' date={Date.now() + 5000} autoStart={false} onComplete={this.completed}></Countdown>
         <br></br>
-        <Button></Button>
+        <Button title='Did this work?'></Button>
       </div>
     );
   }

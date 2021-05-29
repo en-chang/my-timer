@@ -2,12 +2,16 @@ import React from 'react';
 import './Button.css';
 
 class Button extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
   clicked() {
     console.log("Hi Button!");
   }
   render() {
     return (
-      <button className='button' onClick={this.clicked}>Hello Button!</button>
+      <button title={this.title} className='button' onClick={this.clicked}/>
     );
   }
 }
